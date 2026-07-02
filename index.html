@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <section class="perfil-card">
+            <h1 id="titulo">Meu Perfil</h1>
+
+            <div class="foto-container">
+                <img id="foto-perfil" src="coelho.jpeg" alt="Foto inicial do perfil">
+            </div>
+
+            <p id="descricao-perfil">Esta é a descrição inicial do meu perfil profissional.</p>
+
+            <div class="link-container">
+                <a id="link-perfil" href="https://google.com" target="_blank">Visitar Link Inicial</a>
+            </div>
+        </section>
+
+        <section class="controles">
+            <div class="grupo-input">
+                <label for="input-nome">Digite um novo nome:</label>
+                <input type="text" id="input-nome" placeholder="Ex: Fulana Ciclana">
+            </div>
+
+            <div class="botoes-grid">
+                <button id="btn-atualizar-nome">Atualizar Nome</button>
+                <button id="btn-mudar-descricao">Mudar Descrição</button>
+                <button id="btn-trocar-foto">Trocar Foto</button>
+                <button id="btn-mudar-link">Mudar Link</button>
+                <button id="btn-mostrar-mensagem">Mostrar Mensagem</button>
+                <button id="btn-mostrar-informacoes">Mostrar Informações</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
